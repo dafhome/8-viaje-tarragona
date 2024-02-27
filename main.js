@@ -5,21 +5,21 @@ let cerrar = document.querySelector("#cerrar").style = "display: none"
 
 function funcionCien (){
     document.querySelector("#imagen-ruta").src = "/images/barcelona2.avif";
-    document.querySelector("#titulo").innerHTML = "📍¡Arrancamos! Salimos de Barcelona";
+    document.querySelector("#titulo").innerHTML = "📍100km¡Arrancamos! Salimos de Barcelona";
     document.querySelector("#siri").style = "display: block";
     document.querySelector("#cerrar").style = "display: none";
 }
 
 function funcionCincuenta (){
     document.querySelector("#imagen-ruta").src = "/images/sitges3.jpg";
-    document.querySelector("#titulo").innerHTML = "📍¡Ya vamos por la mitad! Ya en Sitges!";
+    document.querySelector("#titulo").innerHTML = "📍50km ¡Ya vamos por la mitad! Ya en Sitges!";
     document.querySelector("#siri").style = "display: block";
     document.querySelector("#cerrar").style = "display: none";
 }
 
 function funcionQuince (){
     document.querySelector("#imagen-ruta").src = "/images/torredembarra2.jpg";
-    document.querySelector("#titulo").innerHTML = "📍¡Ya casi estamos! Pasando Torredembarra.";
+    document.querySelector("#titulo").innerHTML = "📍15km ¡Ya casi estamos! Pasando Torredembarra.";
     document.querySelector("#siri").style = "display: block";
     document.querySelector("#cerrar").style = "display: none";
 }   
